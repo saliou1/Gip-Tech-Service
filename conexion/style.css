@@ -1,0 +1,40 @@
+.form-control{
+    width: 230px !important;
+    height: 40px;
+    padding: 5px !important;
+    font-family: 'times new roman';
+    background: transparent;
+    border: 1px solid #fff;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 80px !important;
+    height: 40px !important;
+    padding: 2px !important;
+    background-color: cornflowerblue !important;
+    color: aliceblue !important;
+    border: 2px solid cornflowerblue !important;
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: bold;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+}
+.conexion{
+    background: url(../images/ran1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and(max-width:800px) {
+    .form-control{
+        width: 200px !important;
+        padding: auto;
+    }
+    
+}
